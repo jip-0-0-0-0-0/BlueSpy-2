@@ -57,7 +57,7 @@ Install dependencies with:
 
 ```bash
 pip install pybluez bleak requests
-```bash
+```
 
 > **Note:**  
 > On Linux, you may need to run the tool with root privileges (e.g., using `sudo`) and ensure that BlueZ is installed and the Bluetooth service is running.
@@ -70,7 +70,7 @@ Run the tool directly via command-line:
 
 ```bash
 python bluespy_adv.py --scan --scan-time 10
-```bash
+```
 
 ### Command-Line Options
 
@@ -120,7 +120,7 @@ To scan for devices, check for vulnerabilities, perform a pairing attack, fuzz t
 
 ```bash
 python bluespy_adv.py --scan --target AA:BB:CC:DD:EE:FF --cve --pair --fuzz --json report.json
-```bash
+```
 
 ---
 
@@ -148,5 +148,5 @@ This project is released under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Happy testing and stay ethical!
+
 
